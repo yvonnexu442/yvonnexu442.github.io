@@ -3626,13 +3626,36 @@ a.scholar-link:hover {
     right: 0;
     left: 0;
     display: none;
-    padding: var(--space-4) clamp(1rem, 6vw, 3rem) var(--space-5);
+    max-height: calc(100dvh - 4.5rem);
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0;
+    padding: var(--space-2) clamp(1rem, 6vw, 3rem) var(--space-4);
     border-bottom: 1px solid var(--line);
     background: var(--paper);
+    box-shadow: 0 1.25rem 2rem color-mix(in srgb, var(--ink) 8%, transparent);
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
   .primary-navigation.is-open {
     display: flex;
+  }
+
+  .primary-navigation a {
+    width: 100%;
+    min-height: 3rem;
+    align-items: center;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .primary-navigation a:last-child {
+    border-bottom: 0;
+  }
+
+  .primary-navigation a::after {
+    right: auto;
+    width: 2.5rem;
   }
 
   .hero {
