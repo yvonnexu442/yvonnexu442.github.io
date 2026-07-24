@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "transportation-infrastructure-asset-management-2019",
+      "displayTitle": "Transportation Infrastructure Asset Management",
+      "title": "A Multi-asset Transportation Infrastructure Asset Management Framework and Modeling for Local Governments",
+      "authors": [
+        "Zhaohua Wang",
+        "Ryan Salameh",
+        "Caitlin Mildner",
+        "Mingshu Li",
+        "Yihua Xu"
+      ],
+      "year": 2019,
+      "venue": "U.S. Department of Transportation National Transportation Library",
+      "publisher": "U.S. Department of Transportation National Transportation Library",
+      "status": "published",
+      "type": "Technical report",
+      "paperType": "technical report",
+      "researchStream": "Transportation infrastructure asset management",
+      "shortSummary": "An early public output examining transportation infrastructure asset management through a multi-asset framework and mathematical modeling for local governments.",
+      "reportNumber": "CTEDD 017-03",
+      "abstract": "Local governments manage substantial roadway and bridge networks while facing aging assets and constrained budgets. The report develops a systematic, multi-asset framework for cost-effective maintenance, rehabilitation, and reconstruction decisions, with the aim of improving budget allocation and accountability.",
+      "keywords": [
+        "Transportation infrastructure",
+        "Asset management",
+        "Mathematical modeling",
+        "Optimization",
+        "Local government"
+      ],
+      "doi": null,
+      "pdfUrl": null,
+      "publicRecordUrl": "https://rosap.ntl.bts.gov/view/dot/65589",
+      "publicUrl": "https://rosap.ntl.bts.gov/view/dot/65589",
+      "googleScholarUrl": "https://scholar.google.com/citations?user=W_mWZJcAAAAJ&hl=en",
+      "codeUrl": null,
+      "projectUrl": null,
+      "citationText": null,
+      "bibtex": null,
+      "researchJourneyRole": "first public research output",
+      "authorshipNote": "Coauthored technical report; Yihua Xu is not listed as first author.",
+      "evidenceStatus": "public-verified",
+      "visibilityStatus": "public",
+      "publicVisibility": "approved"
+    }
+  ]
+}

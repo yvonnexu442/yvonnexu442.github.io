@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.env.*
+.vscode/
+.idea/
+tmp/
+*.log
+*.tmp
+private-evidence/
+review-evidence/
+academic-service-evidence/
+assets/documents/Google Ver CV*

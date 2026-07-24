@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yvonnexu442.github.io/sitemap.xml
