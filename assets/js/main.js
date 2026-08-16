@@ -87,7 +87,7 @@ function initializePublications() {
     .then((data) => {
       const records = Array.isArray(data.items)
         ? data.items
-            .filter((item) => item.visibilityStatus === "public" && item.status === "published")
+            .filter((item) => item.visibilityStatus === "public" && ["published", "public preprint"].includes(item.status))
             .sort((a, b) => Number(b.year) - Number(a.year))
         : [];
 
