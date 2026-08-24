@@ -21,8 +21,8 @@
     <link rel="canonical" href="https://yvonnexu442.github.io/research.html">
     <meta property="og:url" content="https://yvonnexu442.github.io/research.html">
     <title>Research | Yihua Xu</title>
-    <link rel="stylesheet" href="assets/css/styles.css?v=29">
-    <script src="assets/js/main.js?v=18" defer></script>
+    <link rel="stylesheet" href="assets/css/styles.css?v=30">
+    <script src="assets/js/main.js?v=19" defer></script>
   </head>
   <body class="research-page">
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -196,10 +196,88 @@
         </div>
       </section>
 
+      <section id="active-research" class="program-section active-research" aria-labelledby="active-research-title">
+        <div class="shell">
+          <header class="program-section-header active-research-header" data-reveal>
+            <p class="eyebrow"><span>05</span> Selected active research</p>
+            <h2 id="active-research-title">Current questions moving through the research pipeline.</h2>
+            <p>Status is shown conservatively and changes only when the underlying scholarly record changes.</p>
+          </header>
+
+          <figure class="research-system-map" data-reveal aria-labelledby="system-map-caption">
+            <svg viewBox="0 0 960 190" role="img" aria-labelledby="system-map-title system-map-desc">
+              <title id="system-map-title">Operational decision research system</title>
+              <desc id="system-map-desc">A sequence from operational signals through evidence and uncertainty to a decision rule and operational action.</desc>
+              <path class="system-map-path" d="M105 95H855" />
+              <path class="system-map-progress" d="M105 95C250 95 270 55 405 95S570 135 695 95 790 70 855 95" />
+              <g><circle cx="105" cy="95" r="9"/><text x="105" y="45">Signals</text></g>
+              <g><circle cx="292" cy="82" r="9"/><text x="292" y="145">Evidence</text></g>
+              <g><circle cx="480" cy="105" r="9"/><text x="480" y="45">Uncertainty</text></g>
+              <g><circle cx="668" cy="96" r="9"/><text x="668" y="145">Decision rule</text></g>
+              <g><circle cx="855" cy="95" r="9"/><text x="855" y="45">Operational action</text></g>
+            </svg>
+            <figcaption id="system-map-caption">Across the portfolio, analytical evidence is carried forward to the decision rather than treated as an endpoint.</figcaption>
+          </figure>
+
+          <div class="active-research-list">
+            <article class="active-record" data-reveal>
+              <div class="active-record-meta"><span class="status-chip">Accepted · Revision in Progress</span><span>Lead author</span><span>IEOM Irvine 2026</span></div>
+              <h3>When Does an Added Planning Capability Create Operational Value? An Observable Evidence Standard</h3>
+              <p>What observable evidence shows that an added analytical capability changes executable plans and creates value under operational constraints?</p>
+              <p class="author-line"><strong>Yihua Xu</strong>, Yan Lyu, Jize Li, Jiani He, You Lin</p>
+            </article>
+
+            <article class="active-record active-record-visual" data-reveal>
+              <div>
+                <div class="active-record-meta"><span class="status-chip">Submitted · Under Review</span><span>Lead author</span><span>ICOAI 2026</span></div>
+                <h3>Policy Bounded, Provenance Aware Deployment Assurance for LLM Request Routing</h3>
+                <p>When is the evidence behind an LLM routing decision sufficiently valid, attributable, and policy-compliant for deployment?</p>
+                <p class="author-line"><strong>Yihua Xu</strong>, Jiani He, Ishita Chirag Talati, Yitian Qian, Youting Wang, Zhenyu Xu, Dingyan Shang</p>
+              </div>
+              <svg class="record-diagram" viewBox="0 0 320 190" role="img" aria-label="Evidence qualification diagram">
+                <path class="diagram-link" d="M38 95H282"/><circle cx="44" cy="95" r="8"/><circle cx="160" cy="95" r="8"/><circle cx="276" cy="95" r="8"/>
+                <path class="diagram-gate" d="M128 48H192V142H128Z"/><path class="diagram-alert" d="M160 95V32"/>
+                <text x="44" y="124">Request</text><text x="160" y="166">Evidence gate</text><text x="276" y="124">Route</text><text x="160" y="22">Policy</text>
+              </svg>
+            </article>
+
+            <article class="active-record active-record-visual" data-reveal>
+              <div>
+                <div class="active-record-meta"><span class="status-chip">Manuscript in Preparation</span><span>Lead author</span><span>Target: NeurIPS 2026 ML×OR</span></div>
+                <h3>When the Nearest Analog Is Not the Best Evidence: Cold-Start Replenishment under Analog Uncertainty</h3>
+                <p>How should a replenishment decision preserve uncertainty when several historical analogs remain plausible and similarity alone is not enough?</p>
+                <p class="author-line"><strong>Yihua Xu</strong>, Yan Lyu</p>
+              </div>
+              <svg class="record-diagram" viewBox="0 0 320 190" role="img" aria-label="Multiple analog evidence paths flowing into an inventory decision">
+                <circle cx="46" cy="48" r="8"/><circle cx="46" cy="95" r="8"/><circle cx="46" cy="142" r="8"/>
+                <path class="diagram-link" d="M54 48C120 48 112 82 162 95M54 95H162M54 142C120 142 112 108 162 95M170 95H276"/>
+                <circle class="diagram-decision" cx="166" cy="95" r="12"/><path class="diagram-gate" d="M276 72V118M264 72H288M264 118H288"/>
+                <text x="46" y="25">Plausible donors</text><text x="166" y="145">Evidence mix</text><text x="276" y="145">Stock decision</text>
+              </svg>
+            </article>
+
+            <article class="active-record active-record-visual" data-reveal>
+              <div>
+                <div class="active-record-meta"><span class="status-chip">Accepted · Revision in Progress</span><span>Second author</span><span>IEOM Irvine 2026</span></div>
+                <h3>From Weak Signals to Supply Chain Reliability Risk: A Feedback-Driven Risk Accumulation Framework for Late-Delivery Prediction, Early Warning, and Risk Prioritization</h3>
+                <p>How can matured operational signals accumulate into a leakage-controlled risk record that supports early warning and exception triage?</p>
+                <p class="author-line">Yan Lyu, <strong>Yihua Xu</strong>, Jiani He, Jize Li, Rubing Qiang, Yidan Hu</p>
+              </div>
+              <svg class="record-diagram" viewBox="0 0 320 190" role="img" aria-label="Weak operational signals accumulating toward an early-warning threshold">
+                <path class="diagram-grid" d="M36 40H288M36 80H288M36 120H288M36 160H288"/>
+                <path class="diagram-risk" d="M38 150C88 148 94 124 130 128S178 98 205 101 244 55 282 48"/>
+                <path class="diagram-threshold" d="M36 67H288"/><circle cx="130" cy="128" r="6"/><circle cx="205" cy="101" r="6"/><circle cx="282" cy="48" r="8"/>
+                <text x="288" y="58" text-anchor="end">Early-warning threshold</text><text x="38" y="181">Matured signals → accumulated risk</text>
+              </svg>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="program-section research-approach" aria-labelledby="approach-title">
         <div class="shell">
           <header class="approach-header" data-reveal>
-            <p class="eyebrow"><span>05</span> Research approach</p>
+            <p class="eyebrow"><span>06</span> Research approach</p>
             <h2 id="approach-title">How recurring operational problems become researchable decision questions.</h2>
             <p>This is a research philosophy rather than a fixed methodology: the decision remains primary, while evidence and methods are shaped around what the operational setting requires.</p>
           </header>
@@ -217,7 +295,7 @@
       <section class="program-section research-outputs" aria-labelledby="outputs-title">
         <div class="shell research-output-bridge">
           <header data-reveal>
-            <p class="eyebrow"><span>06</span> Research outputs</p>
+            <p class="eyebrow"><span>07</span> Research outputs</p>
             <h2 id="outputs-title">A growing public research record.</h2>
           </header>
           <div class="research-output-summary" data-reveal>
