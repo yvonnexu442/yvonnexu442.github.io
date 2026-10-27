@@ -7364,6 +7364,44 @@ a.scholar-link:hover {
   color: var(--ink-faint);
 }
 
+.publication-card-compact {
+  padding-block: clamp(2.25rem, 4vw, 3.75rem);
+}
+
+.publication-card-compact .publication-card-body h3 {
+  max-width: 34ch;
+  margin-block: var(--space-4);
+  font-size: clamp(1.65rem, 2.8vw, 2.85rem);
+  line-height: 1.06;
+}
+
+.publication-card-compact .publication-summary {
+  max-width: 58rem;
+  font-size: 0.92rem;
+}
+
+.publication-card-compact .publication-card-metadata {
+  margin-top: var(--space-5);
+}
+
+.active-record-link {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 2.5rem;
+  align-items: center;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.3rem;
+}
+
+.active-record-link:hover,
+.active-record-link:focus-visible {
+  color: var(--accent-hover);
+  text-decoration-color: currentcolor;
+}
+
 .publication-resources-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.55fr);
